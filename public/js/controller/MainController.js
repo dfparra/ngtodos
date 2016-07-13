@@ -19,5 +19,8 @@
                   todos = TodoService.todos;
                   console.log(todos);
                 });
+    TodoService.create();
+    TodoService.delete();
+    TodoService.update();
   }
 })();
